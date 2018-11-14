@@ -1,6 +1,9 @@
+categories
+-name
+
 bags
 -brands
--type of bags
+-categories_id
 -color
 -date released
 -price
