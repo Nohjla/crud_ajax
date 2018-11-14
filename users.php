@@ -6,7 +6,7 @@
 
 <?php
 
-$sql ="SELECT * FROM tbl_users";
+$sql ="SELECT * FROM users";
 $result = mysqli_query($con,$sql);
 
 ?>

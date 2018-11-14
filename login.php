@@ -8,24 +8,25 @@
     <div class="col-lg-8">
       
       <div class="card">
-      	<div class="card-header">Registration Frorm</div>
+      	<div class="card-header">Login Form</div>
       		<div class="card-body">
-      			<form action="process_register.php" method="POST">
+      			<form action="users.php" id="form_login" method="POST">
 	      			<div class="form-group">
 
 	      				<label>Username</label>
-	      				<input type="text" class="form-control" name="username"></input>
+	      				<input type="text" class="form-control" id="username" name="username">
+	      				<p class="validation"></p>
 
 	      			</div>
 
 	      			<div class="form-group">
 
 	      				<label>Password</label>
-	      				<input type="password" class="form-control" name="password"></input>
-
+	      				<input type="password" class="form-control" id="password" name="password">
+	      				<p class="validation"></p>
 	      			</div>
-
-	      			<input class="btn btn-success" type="submit" value="SUBMIT"></input>
+	      			<p id="error_message"></p>
+	      			<button id="btn_login" class="btn btn-success" type="button">Submit</button>
 	      			<input class="btn btn-warning" type="reset" value="CLEAR"></input>
       			</form>
       		</div>
@@ -37,5 +38,4 @@
   </div>
 </div>
 
- <?php require_once 'partials/footer.php';?>   
-
+<?php require_once 'partials/footer.php';?>   

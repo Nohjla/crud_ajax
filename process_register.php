@@ -8,7 +8,7 @@ require_once 'partials/dbcon.php';
 	// sha1 = secured hash algorithm
 	// md5 = message digest 5
 
-	$sql = "INSERT tbl_users(uname,password) 
+	$sql = "INSERT users(uname,password) 
 	VALUES('$username','$password')";
 
 	$result = mysqli_query($con,$sql);

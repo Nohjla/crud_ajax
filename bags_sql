@@ -1,0 +1,36 @@
+bags
+-brands
+-type of bags
+-color
+-date released
+-price
+-product description
+-weight capacity
+-gender type
+-image_path
+
+users
+-full name
+-gender
+-address
+-delivery address
+-contact
+-account date created
+-username
+-password
+
+table orders
+-users_id
+-bags_id
+-date_order
+
+points acquired
+-number points
+-transaction date
+-bags_id
+-user_id
+
+tracking order
+-date_order
+-bags_id
+-users_id
